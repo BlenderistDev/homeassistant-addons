@@ -1,0 +1,16 @@
+{
+  "name": "mqtt client",
+  "version": "0.0.1",
+  "slug": "mqttclient",
+  "description": "Mqtt client",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "application",
+  "boot": "auto",
+  "options": {},
+  "schema": {},
+  "image": "blenderist/mqttclient",
+  "ports": {
+    "4000/tcp": 4000
+  },
+  "webui": "http://[HOST]:[PORT:4000]"
+}
