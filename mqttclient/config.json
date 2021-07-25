@@ -9,6 +9,7 @@
   "options": {},
   "schema": {},
   "image": "blenderist/mqttclient",
+  "url": "https://github.com/BlenderistDev/mqttClient",
   "ports": {
     "4000/tcp": 4000
   },
