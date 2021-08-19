@@ -3,12 +3,12 @@
   "version": "0.0.1",
   "slug": "mqttclient",
   "description": "Mqtt client",
-  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "arch": ["armv7", "amd64"],
   "startup": "application",
   "boot": "auto",
   "options": {},
   "schema": {},
-  "image": "blenderist/mqttclient",
+  "image": "blenderist/mqttclient-{arch}",
   "url": "https://github.com/BlenderistDev/mqttClient",
   "ports": {
     "4000/tcp": 4000
