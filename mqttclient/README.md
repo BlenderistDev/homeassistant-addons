@@ -14,17 +14,7 @@ Real-time statistic:
 
 ## Table of Contents
 - [Initial setup](#initial)
-- [Home Assistant addon](#home_assistant_addon)
-  - [Installation](#home_assistant_addon_installation)
-- [Pure client](#pure_client)
-  - [Installation](#pure_client_installation)
-  - [Launch](#pure_client_launch)
-- [Docker](#docker)
-  - [Installation](#docker_installation)
-  - [Launch](#docker_launch)
-- [DockerHub](#dockerhub)
-  - [Installation](#dockerhub_installation)
-  - [Launch](#dockerhub_launch)
+- [Installation](#home_assistant_addon_installation)
 - [Modules](#modules)
   - [Mqtt](#mqtt)
   - [Resender](#resender)
@@ -52,41 +42,6 @@ Install addon mqttClient as usual.
 
 More information: https://www.home-assistant.io/common-tasks/os#installing-third-party-add-ons
 
-
-## <a name="pure_client"> Pure client
-### <a name="pure_client_installation"> Installation
-```
-git clone https://github.com/BlenderistDev/mqttClient.git
-cd mqttClient
-./install.sh
-```
-### <a name="pure_client_launch"> Launch
-```
-./launch.sh
-```
-
-## <a name="docker"> Docker
-### <a name="docker_installation"> Installation
-```
-git clone https://github.com/BlenderistDev/mqttClient.git
-cd mqttClient
-docker build -t blenderist:mqttclient .
-```
-### <a name="docker_launch"> Launch
-```
-docker run -p 4000:4000 blenderist:mqttclient
-```
-
-## <a name="dockerhub"> DockerHub
-### <a name="dockerhub_installation"> Installation
-```
-docker pull blenderist/mqttclient:latest 
-
-```
-### <a name="dockerhub_launch"> Launch
-```
-docker run -p 4000:4000 blenderist/mqttclient:latest
-```
 
 ### <a name="modules"> Modules
 #### <a name="mqtt"> Mqtt
