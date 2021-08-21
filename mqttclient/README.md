@@ -31,7 +31,6 @@ Real-time statistic:
 First of all you should fill mqtt config. (Module Mqtt). After filling config use restart button to reload mqtt settings.
 If you want to use some storage (like MongoDB or MySQL), fill storage config. (Module storage). Also you have to choose primary storage.
 
-## <a name="home_assistant_addon"></a>Home Assistant addon
 ### <a name="home_assistant_addon_installation"></a> Installation
 
 Supervisor > Add-on Store > ![image](https://user-images.githubusercontent.com/45158965/126977982-fc0a743c-68d9-4034-99aa-28011a3431ab.png) > Repositories
