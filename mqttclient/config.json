@@ -13,7 +13,6 @@
   "ports": {
     "4000/tcp": 4000
   },
-  "webui": "http://[HOST]:[PORT:4000]",
   "ingress": true,
   "ingress_port": 4000
 }
