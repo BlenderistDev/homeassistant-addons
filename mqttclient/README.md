@@ -42,8 +42,8 @@ Install addon mqttClient as usual.
 More information: https://www.home-assistant.io/common-tasks/os#installing-third-party-add-ons
 
 
-### <a name="modules"> Modules
-#### <a name="mqtt"> Mqtt
+### <a name="modules"></a> Modules
+#### <a name="mqtt"></a> Mqtt
 Main module. Connects to mqtt server, sends and receives mqtt messages.
 ###### Config
 - `host` mqtt server host
@@ -51,7 +51,7 @@ Main module. Connects to mqtt server, sends and receives mqtt messages.
 - `username` username for connecting, optional
 - `password` password for connection, optional
 - `topic` mqtt base topic for mqtt client, optional
-#### <a name="resender"> Resender
+#### <a name="resender"></a> Resender
 Module resends messages from one mqtt server to another
 ###### Config
 - `direction` direction of resending
@@ -62,19 +62,19 @@ Module resends messages from one mqtt server to another
 - `password` password for connection, optional
 - `topic` topic to resend. Support mqtt special chars like # or +
   - validation: required
-#### <a name="ping"> Ping
+#### <a name="ping"></a> Ping
 Module measures time between sending and receiving message.
 ###### Config:
 - `interval` metering interval
   - unit of measurement: seconds
   - validation: required, integer, more than 0
-#### <a name="messagecounter"> MessageCounter
+#### <a name="messagecounter"></a> MessageCounter
 Module counts messages per time interval
 ###### Config:
 - `interval` time interval for counting, seconds
   - unit of measurement: seconds
   - validation: required, integer, more than 0
-#### <a name="doubleclick"> DoubleClick
+#### <a name="doubleclick"> DoubleClick</a>
 Module adds double click functionality to smart switches without double click.
 ###### Config:
 - `interval` time for waiting of second click
@@ -84,19 +84,19 @@ Module adds double click functionality to smart switches without double click.
   - validation: require
 - `attribute` json attribute with value in incoming message. For example `state_center` or `state.state_center` or even `state[1].state_center`. Optional
 - `name` part of output topic name. Helps to deference similar sensors. Optional
-#### <a name="database_module"> Database
+#### <a name="database_module"></a> Database
 Module allows to create several database storages.
 Config is similar to [Database](#database)
 
-#### <a name="mongodb_module"> MongoDB
+#### <a name="mongodb_module"></a> MongoDB
 Module allows to create several MongoDB storages.
 Config is similar to [MongoDB](#mongodb)
 
-### <a name="storages"> Storages
+### <a name="storages"></a> Storages
 The module allows you to view mqtt messages stored in the storage.
 ###### Config:
 - `storage` storage to fetch data
-#### <a name="database"> Database
+#### <a name="database"></a> Database
 Module stores data to database.
 ###### Config:
 - `dialect` database dialect. Supported dialects are mysql, mariadb, postrgesql.
@@ -110,7 +110,7 @@ Module stores data to database.
 - `table` table name
   - validation: required
 - `interval` interval to make query to database. Optional, if not set, every message will cause a query.
-#### <a name="mongodb"> MongoDB
+#### <a name="mongodb"></a> MongoDB
 Module stores data to MongoDB.
 ###### Config:
 - `host` MongoDB host
