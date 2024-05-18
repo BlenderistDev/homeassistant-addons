@@ -1,6 +1,6 @@
 {
   "name": "mqtt client",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "slug": "mqttclient",
   "description": "Mqtt client",
   "arch": ["armv7", "amd64"],
