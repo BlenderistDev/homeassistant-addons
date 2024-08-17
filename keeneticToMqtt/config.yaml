@@ -1,8 +1,10 @@
 name: "KeeneticToMqtt"
 description: "keenetic api to mqtt bridge"
-version: "0.0.5"
+version: "0.0.1"
 slug: "keenetic_to_mqtt"
 init: false
+image: "blenderist/keeneticToMqtt-{arch}",
+url: "https://github.com/BlenderistDev/keeneticToMqtt",
 arch:
   - amd64
 options:
